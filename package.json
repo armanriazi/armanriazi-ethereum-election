@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "lite-server & set PORT=8000 ",
+    "start": "lite-server && ganache-cli --host 0.0.0.0",
     "ganache": "ganache-cli --host 0.0.0.0",
     "truffle-console": "truffle console",
     "truffle-test": "truffle test",
