@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "lite-server & set PORT=8000 ",
-    "start": "lite-server && ganache-cli --host 0.0.0.0",
+    "start-dep": "concurrently --kill-others \"npm  lite-server\" \"npm ganache-cli --host 0.0.0.0\"",
+    "start-dev": "concurrently --kill-others \"npm  run dev\" \"npm run ganache\"",
     "ganache": "ganache-cli --host 0.0.0.0",
     "truffle-console": "truffle console",
     "truffle-test": "truffle test",
@@ -23,6 +24,7 @@
   "author": "armanriazi",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^5.3.0",
     "ganache-cli": "^6.12.1",
     "lite-server": "^2.6.1"
   },
