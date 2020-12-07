@@ -1,0 +1,31 @@
+{
+  "name": "armanriazi-etereum-election",
+  "version": "1.0.0",
+  "description": "arazhit.ir",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server & set PORT=8000 ",
+    "ganache": "ganache-cli --host 0.0.0.0",
+    "truffle-console": "truffle console",
+    "truffle-test": "truffle test",
+    "truffle-network": "truffle network",
+    "truffle-version": "truffle version",
+    "truffle-network-clean": "truffle networks --clean",
+    "truffle-migrate-reset": "truffle migrate --reset",
+    "truffle-migrate": "truffle migrate",
+    "truffle-compile": "truffle compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "armanriazi",
+  "license": "ISC",
+  "devDependencies": {
+    "ganache-cli": "^6.12.1",
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "truffle": "^4.1.0"
+  }
+}

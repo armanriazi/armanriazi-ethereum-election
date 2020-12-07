@@ -1,0 +1,8 @@
+{
+  "server": {
+    "port": 8000,
+    "proxy": "::8000",
+    "files": ["./src/**/*.{html,htm,css,js,json}"],
+    "baseDir": ["./src", "./build/contracts"]
+  }
+}
