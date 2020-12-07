@@ -103,21 +103,14 @@
   "ast": {
     "absolutePath": "/home/node/app/election-dapp/contracts/Election.sol",
     "exportedSymbols": {
-      "Election": [
-        95
-      ]
+      "Election": [95]
     },
     "id": 96,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 1,
-        "literals": [
-          "solidity",
-          "^",
-          "0.4",
-          ".19"
-        ],
+        "literals": ["solidity", "^", "0.4", ".19"],
         "nodeType": "PragmaDirective",
         "src": "0:24:0"
       },
@@ -128,9 +121,7 @@
         "documentation": null,
         "fullyImplemented": true,
         "id": 95,
-        "linearizedBaseContracts": [
-          95
-        ],
+        "linearizedBaseContracts": [95],
         "name": "Election",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -1341,21 +1332,14 @@
   "legacyAST": {
     "absolutePath": "/home/node/app/election-dapp/contracts/Election.sol",
     "exportedSymbols": {
-      "Election": [
-        95
-      ]
+      "Election": [95]
     },
     "id": 96,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 1,
-        "literals": [
-          "solidity",
-          "^",
-          "0.4",
-          ".19"
-        ],
+        "literals": ["solidity", "^", "0.4", ".19"],
         "nodeType": "PragmaDirective",
         "src": "0:24:0"
       },
@@ -1366,9 +1350,7 @@
         "documentation": null,
         "fullyImplemented": true,
         "id": 95,
-        "linearizedBaseContracts": [
-          95
-        ],
+        "linearizedBaseContracts": [95],
         "name": "Election",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -2581,12 +2563,6 @@
     "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {
-    "42": {
-      "events": {},
-      "links": {},
-      "address": "0x9413e6c954c93167dd4e47a9771d34ca644de1be",
-      "transactionHash": "0x4334347e69020e8703a069511848be6da651a911816c1c3ba69de140350f629a"
-    },
     "1607272164318": {
       "events": {},
       "links": {},
@@ -2601,5 +2577,5 @@
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2020-12-06T18:45:55.445Z"
+  "updatedAt": "2020-12-07T19:52:39.689Z"
 }

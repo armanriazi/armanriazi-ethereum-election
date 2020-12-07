@@ -7,9 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "lite-server & set PORT=8000 ",
-    "start-dep": "concurrently --kill-others \"npm  lite-server\" \"npm ganache-cli --host 0.0.0.0\"",
-    "start-dev": "concurrently --kill-others \"npm  run dev\" \"npm run ganache\"",
+    "dev": "lite-server",
+    "start-dep": "concurrently --kill-others -s first \"npm ganache-cli --host 0.0.0.0\" \"npm lite-server\"",
+    "start-dev": "concurrently --kill-others -s first \"npm  run ganache\" \"npm run dev\"",
     "ganache": "ganache-cli --host 0.0.0.0",
     "truffle-console": "truffle console",
     "truffle-test": "truffle test",
